@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif; 
+}
+/* navbar  */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    background-color: white;
+}
+#navbar::before{
+    content: "";
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1; 
+    opacity: 1;
+}
+/* navbar list  */
+#logo{
+    margin: 5px 45px;
+    font-size: 25px;
+    padding-right: 700px;
+    padding-left: 100px;
+}
+/* list  */
+#navbar ul{
+    display: flex;
+}
+#navbar ul li{
+    list-style: none;
+    font-size: 18px;
+}
+#navbar ul li a{
+    color: black;
+    display: block;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    color: white;    
+    background-color: black;
+}
+/* home  */
+#home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#mainimg img{
+    height: 650px;
+}
+.container{
+    padding: 20px;
+}
+.container h1{
+    font-size: 48px;
+}
+#hello{
+    font-size: 30px;
+    color: #ff7e00;
+}
+.same{
+    font-size: 24px;
+}
+#content{
+    font-size: 1.1em;
+    padding: 20px 0px;
+}
+.btn{
+    background-color: rgb(255, 166, 77);
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.1rem;
+}
+/* about  */
+#about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+}
+#about h1{
+    font-size: 2rem;
+    padding: 30px 0px;
+}
+#holder{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.h{
+    background-color: black;
+    padding: 50px;
+    margin: 20px;
+}
+#holder div img{
+    height: 225px;
+}
+#holder div a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding-top: 30px;
+    font-size: 1.4rem;
+}
+#holder div a:hover{
+    color: #ff7e00;
+}
+/* contact  */
+.contact{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.row input{
+    padding: 10px 22px;
+    margin: 15px;
+}
+.title{
+    padding: 10px;
+    padding-bottom: 20px;
+    font-size: 1.4rem;
+}
+.row textarea{
+    padding: 10px 152px;
+    margin: 15px;
+}
+.row textarea::placeholder{
+    text-align: left;
+}
